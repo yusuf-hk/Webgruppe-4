@@ -3,6 +3,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: sans-serif, serif, 'Times New Roman', Times, serif;
+    min-height: 1000px;  /* fjern før ferdig prosjekt skal innleveres */
 }
 
 header {
@@ -28,8 +29,18 @@ nav ul {
 }
 
 .grid-container {
+    margin-top: 75px;
+    padding: 30px;
+}
+
+.container {
     display: grid;
-    grid-template: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+article {
+    display: grid;
+    justify-self: center;
 }
 
 
