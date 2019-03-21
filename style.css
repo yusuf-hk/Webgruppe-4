@@ -27,6 +27,24 @@ nav {
 nav ul {
     display: none;
 }
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    background: #fff;
+    color: #262626;
+}
+
+#main-navbar img {
+    margin-right: auto;
+}   
 
 .grid-container {
     margin-top: 75px;
@@ -62,26 +80,9 @@ Footer {
         display: flex;
         position: relative;
         margin: 0%;
-        padding: 40px 0;
+        padding: 30px 30px;
     }
-    nav ul li {
-        list-style: none;
-    }
-    
-    nav ul li a {
-        color: #fff;
-        padding: 10px 15px;
-        text-decoration: none;
-    }
-    
-    nav ul li a.active {
-        background: #fff;
-        color: #262626;
-    }
-    
-    #main-navbar img {
-        margin-right: auto;
-    }   
+   
 }
 
 @media only screen and (min-width: 1000px) {
