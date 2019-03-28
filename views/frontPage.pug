@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    .newsArticles
+        for item in articles
+            div.article(style='color:'+ item[0])= item[1]
+
+    h1(id="dateTime")
+
+block scripts
+    script(src="/javascript/test.js")
+
+
+
