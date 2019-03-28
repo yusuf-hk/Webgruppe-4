@@ -1,0 +1,224 @@
+@media screen and (max-width: 480px) {
+    body {
+        margin: 0;
+        background-color: #f6f6f6;
+    }
+    .menu-nav {
+        display: block;
+        height: 40px;
+        width: 100%;
+        background: url(dropdownbar.png) no-repeat 98%;
+        cursor: pointer;
+        background-color: #014f9e;
+    }
+    #logo {
+        display: none;
+    }
+    header .wrapper {
+        width: 100%;
+        padding: 0;
+    }
+    header nav ul {
+        margin: 0;
+        overflow: hidden;
+        background: #424040;
+        padding: 0;
+        height: 0;
+    }
+    header nav ul.open {
+        height: auto;
+    }
+    header nav ul li {
+        float: none;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        list-style-type: none;
+    }
+    header nav ul li a {
+        color: #fff;
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+        border-bottom: 1px solid #817c7c;
+    }
+
+    figcaption{
+        margin-left: 10px;
+    }
+
+    figure{
+        background-color: burlywood;
+    }
+
+    article {
+        background-color: #fff;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 3px;
+        padding-right: 3px;
+        border-radius: 7%;
+    }
+    article p {
+        margin-left: 10px;
+    }
+
+    h6 {
+        margin: 0;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+    
+    }
+
+    a {
+        color: #262626;
+        align-items: center;
+        justify-items: end;
+    }
+
+    a :active {
+        color: #262626;
+    }
+
+    Footer {
+        background: #333;
+        color: rgb(158, 158, 158);
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+        width: 100%;
+        border-top: solid;
+        box-sizing: border-box;
+    }
+
+}
+
+@media only screen and (min-width: 481px) {
+    body {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif, serif, 'Times New Roman', Times, serif;
+    }
+    img {
+        display: block;
+    }
+    #menu {
+        display: none;
+    }
+    header {
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        height: 75px;
+        width: 100%;
+        padding: 0% 100px;
+        background-color: #014f9e;
+        display: block;
+    }
+    #actionbar {
+        width: 100%;
+        transform: translateX(-100px);
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #actionbar ul {
+        display: inline;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        padding:15px 3%;
+    }
+
+    #actionbar ul li {
+        list-style: none;
+    }
+
+    #actionbar ul li a {
+        color: #fff;
+        padding: 10px 15px;
+        text-decoration: none;
+    }
+
+    #actionbar ul li a.active {
+        background: #fff;
+        color: #262626;
+    }
+
+    #main-navbar img {
+        margin-right: auto;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        justify-content: center;
+    }
+
+    figcaption{
+        margin-left: 10px;
+    }
+
+    figure{
+        margin-top: 100px;
+        background-color: burlywood;
+        max-width: 700px;
+    }
+
+    article {
+        background-color: #fff;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 3px;
+        padding-right: 3px;
+        border-radius: 7%;
+    }
+    article p {
+        margin-left: 10px;
+    }
+
+    h6 {
+        margin: 0;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+    
+    }
+
+   
+    Footer {
+        background: #333;
+        color: rgb(158, 158, 158);
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+        width: 100%;
+        border-top: solid;
+        box-sizing: border-box;
+    }
+    a {
+        color: #262626;;
+    }
+    a :active {
+        color: #262626;
+    }
+}
+@media only screen and (min-width: 768px) {
+
+figure {
+    max-width: 1000px;;
+}
+
+
+
+}
+@media only screen and (min-width: 1024px) {
+    
+
+}

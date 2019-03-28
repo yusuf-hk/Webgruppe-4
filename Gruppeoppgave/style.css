@@ -45,25 +45,38 @@
         border-bottom: 1px solid #817c7c;
     }
     .grid-container {
-        margin-top: px;
         padding: 30px;
+    }
+    .section-divider {
+        font-size: 36px;
+        font-family: 'Arial Narrow','Franklin Gothic Medium', 'Arial, sans-serif';
+        text-decoration: underline;
+        text-align: center;
+        margin-bottom: 4px;
     }
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        align-items: center;
         background-color: #FFF;
     }
     article {
-        display: grid;
-        justify-self: center;
-        padding: 15px 15px 0 15px;
+        padding: 15px;
     }
+
+    .article-2{
+        display: grid;
+  
+    }
+
     h2 {
         margin: 0%;
     }
 
     a {
-        color: #262626;;
+        color: #262626;
+        align-items: center;
+        justify-items: end;
     }
     a :active {
         color: #262626;
@@ -81,7 +94,7 @@
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 481px) {
     body {
         width: 100vw;
         padding: 0;
@@ -116,7 +129,7 @@
         display: flex;
         justify-content: center;
         justify-content: space-between;
-        padding:2%;
+        padding:15px 3%;
     }
 
     #actionbar ul li {
@@ -139,20 +152,36 @@
     }
 
     .grid-container {
-        margin-top: 75px;
+        margin-top: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
         padding: 30px;
+    
     }
 
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        max-width: 700px;
+        align-items: center;
     }
 
     article {
         display: grid;
         justify-self: center;
     }
+    article h2 {
+        margin-top: 0%;
+    }
 
+    .section-divider {
+        max-width: 700px;
+        font-size: 48px;
+        font-family: 'Arial Narrow','Franklin Gothic Medium', 'Arial, sans-serif';
+        text-decoration: underline;
+        text-align: center;
+    }
+   
     Footer {
         background: #333;
         color: rgb(158, 158, 158);
@@ -163,6 +192,36 @@
         border-top: solid;
         box-sizing: border-box;
     }
+    a {
+        color: #262626;;
+    }
+    a :active {
+        color: #262626;
+    }
+}
+@media only screen and (min-width: 768px) {
+.grid-container{
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
-@media only screen and (min-width: 1000px) {}
+
+    .container {
+        max-width: 1000px;
+    }
+
+.section-divider {
+    max-width: 1000px;
+}
+
+}
+@media only screen and (min-width: 1024px) {
+    .container {
+        max-width: 1440px;
+    }
+
+.section-divider {
+    max-width: 1440px;
+}
+
+}
