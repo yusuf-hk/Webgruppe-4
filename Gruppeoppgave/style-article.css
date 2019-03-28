@@ -72,15 +72,24 @@
     
     }
 
-    a {
+    #menu-nav ul li a {
         color: #262626;
         align-items: center;
         justify-items: end;
     }
 
-    a :active {
+    #menu-nav ul li a :active {
         color: #262626;
     }
+    
+    a {
+        color: #FFF;
+
+    }
+a :active {
+     color: #FFF;
+}
+
 
     Footer {
         background: #333;
@@ -93,6 +102,13 @@
         box-sizing: border-box;
     }
 
+    footer li{
+        list-style: none;
+    }
+
+    footer ul{
+        margin-right: 30px;
+    }
 }
 
 @media only screen and (min-width: 481px) {
@@ -208,6 +224,7 @@
     a :active {
         color: #262626;
     }
+
 }
 @media only screen and (min-width: 768px) {
 
