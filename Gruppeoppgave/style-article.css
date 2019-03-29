@@ -61,6 +61,7 @@
     }
     article p {
         margin-left: 10px;
+        padding: 2px;
     }
 
     h6 {
@@ -171,6 +172,7 @@ a :active {
     section{
         display: flex;
         flex-direction: column;
+        max-width: 525px;
     }
     .container{
         justify-content: center;
@@ -218,24 +220,32 @@ a :active {
         border-top: solid;
         box-sizing: border-box;
     }
-    a {
-        color: #262626;;
+    footer li{
+        list-style: none;
     }
-    a :active {
-        color: #262626;
+    footer a {
+        color: #fff;;
+    }
+    footer a :active {
+        color: #fff;
     }
 
 }
 @media only screen and (min-width: 768px) {
+section {
+    max-width: 600px;
+    margin-left: 10vw;
 
-figure {
-    max-width: 1000px;;
 }
+
+
 
 
 
 }
 @media only screen and (min-width: 1024px) {
-    
-
+    section {
+    max-width: 800px;
+    margin-left: 23vw;
+    }
 }
