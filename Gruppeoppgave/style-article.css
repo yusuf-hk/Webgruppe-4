@@ -11,9 +11,10 @@
         cursor: pointer;
         background-color: #014f9e;
     }
-    #logo {
-        display: none;
-    }
+    .logo {
+        position: absolute;
+        width: 110px;
+        }
     header .wrapper {
         width: 100%;
         padding: 0;
@@ -51,7 +52,7 @@
         background-color: burlywood;
     }
 
-    article {
+    .article-back {
         background-color: #fff;
         margin-left: 5%;
         margin-right: 5%;
@@ -59,27 +60,27 @@
         padding-right: 3px;
         border-radius: 7%;
     }
-    article p {
+    .article-back p {
         margin-left: 10px;
         padding: 2px;
     }
 
-    h6 {
+    .author {
         margin: 0;
     }
 
-    h1 {
+    .headline {
         margin-bottom: 10px;
     
     }
 
-    #menu-nav ul li a {
+    .menu-nav ul li a {
         color: #262626;
         align-items: center;
         justify-items: end;
     }
 
-    #menu-nav ul li a :active {
+    .menu-nav ul li a :active {
         color: #262626;
     }
     
@@ -119,10 +120,16 @@ a :active {
         margin: 0;
         font-family: sans-serif, serif, 'Times New Roman', Times, serif;
     }
+    .logo {
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        width: 120px;
+    }
     img {
         display: block;
     }
-    #menu {
+    .menu {
         display: none;
     }
     header {
@@ -135,14 +142,14 @@ a :active {
         background-color: #014f9e;
         display: block;
     }
-    #actionbar {
+    .actionbar {
         width: 100%;
         transform: translateX(-100px);
         display: flex;
         justify-content: flex-end;
     }
 
-    #actionbar ul {
+    .actionbar ul {
         display: inline;
         display: flex;
         justify-content: center;
@@ -150,22 +157,22 @@ a :active {
         padding:15px 3%;
     }
 
-    #actionbar ul li {
+    .actionbar ul li {
         list-style: none;
     }
 
-    #actionbar ul li a {
+    .actionbar ul li a {
         color: #fff;
         padding: 10px 15px;
         text-decoration: none;
     }
 
-    #actionbar ul li a.active {
+    .actionbar ul li a.active {
         background: #fff;
         color: #262626;
     }
 
-    #main-navbar img {
+    .main-navbar img {
         margin-right: auto;
     }
 
@@ -188,7 +195,7 @@ a :active {
         max-width: 700px;
     }
 
-    article {
+    .article-back {
         background-color: #fff;
         margin-left: 5%;
         margin-right: 5%;
@@ -196,15 +203,15 @@ a :active {
         padding-right: 3px;
         border-radius: 7%;
     }
-    article p {
+    .article-back p {
         margin-left: 10px;
     }
 
-    h6 {
+    .author {
         margin: 0;
     }
 
-    h1 {
+    .headline {
         margin-bottom: 10px;
     
     }
