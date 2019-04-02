@@ -44,6 +44,45 @@
         border-bottom: 1px solid #817c7c;
     }
 
+    figcaption{
+        margin-left: 10px;
+    }
+
+    figure{
+        background-color: burlywood;
+    }
+
+    .article-back {
+        background-color: #fff;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 3px;
+        padding-right: 3px;
+        border-radius: 7%;
+    }
+    .article-back p {
+        margin-left: 10px;
+        padding: 2px;
+    }
+
+    .author {
+        margin: 0;
+    }
+
+    .headline {
+        margin-bottom: 10px;
+    
+    }
+    .menu-nav ul li a {
+        color: #262626;
+        align-items: center;
+        justify-items: end;
+    }
+
+    .menu-nav ul li a :active {
+        color: #262626;
+    }
+
     .grid-container {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -98,6 +137,7 @@
 
 @media only screen and (min-width: 481px) {
     body {
+        background-color: #f6f6f6;
         width: 100vw;
         padding: 0;
         margin: 0;
@@ -106,7 +146,7 @@
     .logo {
         position: absolute;
         top: 15px;
-        left: 2px;
+        left: 20px;
         width: 120px;
         margin: 0%;
         padding: 0%;
@@ -163,6 +203,47 @@
     .main-navbar img {
         margin-right: auto;
     }
+
+    section{
+        display: flex;
+        flex-direction: column;
+        max-width: 525px;
+    }
+    .container{
+        justify-content: center;
+    }
+
+    figcaption{
+        margin-left: 10px;
+    }
+
+    figure{
+        margin-top: 100px;
+        background-color: burlywood;
+        max-width: 700px;
+    }
+
+    .article-back {
+        background-color: #fff;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 3px;
+        padding-right: 3px;
+        border-radius: 7%;
+    }
+    .article-back p {
+        margin-left: 10px;
+    }
+
+    .author {
+        margin: 0;
+    }
+
+    .headline {
+        margin-bottom: 10px;
+    
+    }
+
     .grid-container {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
@@ -234,9 +315,16 @@
     }
 }
 @media only screen and (min-width: 768px) {
-
+    section {
+        max-width: 600px;
+        margin-left: 10vw;
+    
+    }
 
 }
 @media only screen and (min-width: 1000px) {
-
+    section {
+        max-width: 800px;
+        margin-left: 23vw;
+        }
 }
